@@ -1,0 +1,9 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Image %@×%@" : {
+      "comment" : "Preview text for a saved image. First value is width, second is height in pixels."
+    }
+  },
+  "version" : "1.0"
+}

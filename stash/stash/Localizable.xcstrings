@@ -1,0 +1,348 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "%lld days" : {
+
+    },
+    "1 day" : {
+
+    },
+    "About" : {
+
+    },
+    "Add the ClipVault keyboard in Settings → General → Keyboard → Keyboards, then switch to it with the globe key." : {
+
+    },
+    "Applies to clips saved from now on. Pinned clips are kept. One-time codes and card numbers always expire after 10 minutes." : {
+
+    },
+    "Authentication did not succeed, so the lock was not turned on." : {
+
+    },
+    "Capture" : {
+
+    },
+    "Clear all history" : {
+
+    },
+    "Clip" : {
+
+    },
+    "Clip ID" : {
+
+    },
+    "Clipboard" : {
+
+    },
+    "ClipVault" : {
+
+    },
+    "ClipVault could not open its shared storage. Check that the App Group is enabled for this build." : {
+
+    },
+    "ClipVault is locked" : {
+
+    },
+    "Confirm to turn on the ClipVault lock." : {
+
+    },
+    "Content" : {
+
+    },
+    "Copied" : {
+
+    },
+    "Copied." : {
+
+    },
+    "Copies a saved ClipVault item back to the clipboard." : {
+
+    },
+    "Copy ${item}" : {
+
+    },
+    "Copy clip" : {
+
+    },
+    "Copy Clip" : {
+
+    },
+    "Copy Clip from ClipVault" : {
+
+    },
+    "Copy shared items to the clipboard" : {
+
+    },
+    "Copy something, then tap the Paste button above to save it. You can also use Share → Save to ClipVault from any app." : {
+
+    },
+    "Delete" : {
+
+    },
+    "Delete all" : {
+
+    },
+    "Delete every saved clip?" : {
+
+    },
+    "Dismiss" : {
+
+    },
+    "Done" : {
+
+    },
+    "Double tap to copy" : {
+
+    },
+    "Everything stays on this device." : {
+
+    },
+    "Expires %@" : {
+
+    },
+    "File" : {
+
+    },
+    "Forever" : {
+
+    },
+    "Get started" : {
+
+    },
+    "Help" : {
+
+    },
+    "History" : {
+
+    },
+    "How ClipVault works" : {
+
+    },
+    "Image" : {
+
+    },
+    "iOS does not let any app watch the clipboard in the background, and ClipVault does not try to. It saves what you choose to save, plus, if you allow it, the clipboard when the app or keyboard opens." : {
+
+    },
+    "iOS never tells apps when you copy, so copies are saved only while ClipVault or its keyboard is open, and only the latest copy survives in between. Sharing to ClipVault also copies the shared item, so the next paste gives it. The keyboard needs Allow Full Access. iOS may ask permission to paste unless you set Paste from Other Apps to Allow in ClipVault's iOS settings." : {
+
+    },
+    "Items you save by tapping Paste, using the Share sheet, or running a Shortcut. If you leave these options on, it also saves the clipboard when the app opens and when the ClipVault keyboard is open (the keyboard needs Full Access). You can turn both off in Settings. ClipVault never watches your clipboard while it is closed or in the background." : {
+
+    },
+    "Keep clips for" : {
+
+    },
+    "Keyboard and Full Access" : {
+
+    },
+    "Link" : {
+
+    },
+    "Locks this app when it opens or returns from the background. The keyboard, widget and Shortcuts still work without unlocking, so keep sensitive items short-lived." : {
+
+    },
+    "New item on clipboard" : {
+
+    },
+    "Next" : {
+
+    },
+    "No accounts, no analytics, no network requests." : {
+
+    },
+    "No clips yet" : {
+
+    },
+    "Nothing to save" : {
+
+    },
+    "On this device only, in storage shared between the app, its keyboard, its share extension and its widget. Nothing is sent to any server. ClipVault contains no analytics or advertising code and makes no network requests." : {
+
+    },
+    "One-time codes and card-like numbers are masked and deleted after 10 minutes." : {
+
+    },
+    "One-time codes and card-like numbers are masked in lists and deleted automatically after 10 minutes." : {
+
+    },
+    "Open iOS Settings for ClipVault" : {
+
+    },
+    "Optional: turn on Save clipboard when ClipVault opens in Settings. It works only while the app opens, because iOS never reports copies made elsewhere." : {
+
+    },
+    "Optional. Leave empty to read the clipboard." : {
+
+    },
+    "Paste button: tap it in ClipVault to save what you just copied. iOS lets this button read one item without asking." : {
+
+    },
+    "Paste from anywhere" : {
+
+    },
+    "Pick whichever fits the moment." : {
+
+    },
+    "Pin" : {
+
+    },
+    "Pinned" : {
+
+    },
+    "Pinned clips are deleted too. This cannot be undone." : {
+
+    },
+    "Privacy" : {
+
+    },
+    "Privacy policy" : {
+
+    },
+    "Private by design" : {
+
+    },
+    "Recent" : {
+
+    },
+    "Require Face ID" : {
+
+    },
+    "Save Clipboard" : {
+
+    },
+    "Save Clipboard to ClipVault" : {
+
+    },
+    "Save clipboard when ClipVault opens" : {
+
+    },
+    "Save copies when the keyboard opens" : {
+
+    },
+    "Save from clipboard" : {
+
+    },
+    "Saved clipboard to ClipVault" : {
+
+    },
+    "Saved to ClipVault" : {
+
+    },
+    "Saved to ClipVault." : {
+
+    },
+    "Saves the current clipboard text, link or image into your ClipVault history." : {
+
+    },
+    "Search clips" : {
+
+    },
+    "Security" : {
+
+    },
+    "Sensitive item" : {
+
+    },
+    "Sensitive items" : {
+
+    },
+    "Set up Face ID or a device passcode to use this." : {
+
+    },
+    "Settings" : {
+
+    },
+    "Share sheet: choose Save to ClipVault from any app." : {
+
+    },
+    "Shortcuts and the Action button: run Save Clipboard to ClipVault. iOS may ask your permission to paste the first time." : {
+
+    },
+    "Skip" : {
+
+    },
+    "Storage unavailable" : {
+
+    },
+    "Swipe to delete any item, choose how long history is kept, or clear everything in Settings. Deleting the app removes all saved data." : {
+
+    },
+    "Swipe to delete anything, or clear all history in Settings." : {
+
+    },
+    "Tap Paste to save it to ClipVault. ClipVault never reads the clipboard on its own." : {
+
+    },
+    "Text" : {
+
+    },
+    "That clip is no longer available." : {
+
+    },
+    "That clip is no longer saved." : {
+
+    },
+    "That content could not be saved." : {
+
+    },
+    "The clipboard is empty, so nothing was saved." : {
+
+    },
+    "The ClipVault keyboard can show your saved items only if you turn on Allow Full Access, because iOS blocks shared storage otherwise. Full Access lets a keyboard use the network in general; ClipVault does not. Without it the keyboard still works, but cannot show your history." : {
+
+    },
+    "The widget also lets you tap a clip to copy it." : {
+
+    },
+    "This item is no longer available" : {
+
+    },
+    "Three ways to save" : {
+
+    },
+    "To show your history, the keyboard needs Allow Full Access. That is how iOS lets a keyboard read ClipVault's saved items. ClipVault never sends anything off your device." : {
+
+    },
+    "Turn on Face ID in Settings to lock the app. It does not lock the keyboard, widget or Shortcuts." : {
+
+    },
+    "Unlock" : {
+
+    },
+    "Unlock ClipVault to view your saved clips." : {
+
+    },
+    "Unpin" : {
+
+    },
+    "Version" : {
+
+    },
+    "What ClipVault stores" : {
+
+    },
+    "Where it is stored" : {
+
+    },
+    "With Full Access on, the keyboard also saves what you copy while it is open. iOS keeps only the latest copy, so copies made while the keyboard is closed are lost except the last one." : {
+
+    },
+    "Without Full Access the keyboard still types space, delete and return, but cannot show your history." : {
+
+    },
+    "Your clipboard, kept on purpose" : {
+
+    },
+    "Your control" : {
+
+    }
+  },
+  "version" : "1.0"
+}

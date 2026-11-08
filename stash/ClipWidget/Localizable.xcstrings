@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Clip ID" : {
+
+    },
+    "Copied" : {
+
+    },
+    "Copies this clip" : {
+
+    },
+    "Copy clip" : {
+
+    },
+    "No clips yet. Save one in ClipVault." : {
+
+    },
+    "Open ClipVault once to set up." : {
+
+    },
+    "Recent clips" : {
+
+    },
+    "Your two latest copies. Tap one to copy it, then paste anywhere." : {
+
+    }
+  },
+  "version" : "1.0"
+}

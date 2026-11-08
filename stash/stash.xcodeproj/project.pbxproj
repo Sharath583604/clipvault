@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B48AB4CADF34D5A95B0C9E1 /* KeyboardExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A38B2D5B2287DDCE8CA0CBC /* KeyboardExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C0B8E4818663D315491FBF6 /* ClipKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95F91EFA189DA60320F57D9F /* ClipKit */; };
+		535ED0DAA11008650EC6DE89 /* ShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CEA5DD319333D693CF7EFFA3 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A17E3A67FA8F21D37FE6EE9 /* ClipWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 646EDE3E215A709B5444CFF3 /* ClipWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		750024BC71362BAFC64E9F15 /* ClipKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95F91EFA189DA60320F57D9F /* ClipKit */; };
+		9C8CBCF1CE45556DC0D676A7 /* ClipKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95F91EFA189DA60320F57D9F /* ClipKit */; };
+		9DA96A13309E5575000BBC79 /* ClipVault-Guide.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DA96A11309E5575000BBC79 /* ClipVault-Guide.md */; };
+		9DA96A14309E5575000BBC79 /* ClipVault-Guide.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DA96A11309E5575000BBC79 /* ClipVault-Guide.md */; };
+		9DA96A15309E5575000BBC79 /* ClipVault-Guide.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DA96A11309E5575000BBC79 /* ClipVault-Guide.md */; };
+		9DA96A16309E5575000BBC79 /* ClipVault-Guide.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DA96A11309E5575000BBC79 /* ClipVault-Guide.md */; };
+		C1FD248A049A14CB44193E82 /* ClipKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95F91EFA189DA60320F57D9F /* ClipKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6254DFA41E1FCF3C5BB98BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA968F5309E42CE000BBC79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E76EE1E2E80410897A3B05E;
+			remoteInfo = ClipWidget;
+		};
+		ABB3EBB688924DCFF07C30AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA968F5309E42CE000BBC79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBFB7663E2A060FB17433B4;
+			remoteInfo = KeyboardExtension;
+		};
+		E9802C04EC72AB10A769E826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA968F5309E42CE000BBC79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E7050869DCFA32234E5295;
+			remoteInfo = ShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		269605D45C104F12CBCDC8FB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				535ED0DAA11008650EC6DE89 /* ShareExtension.appex in Embed Foundation Extensions */,
+				0B48AB4CADF34D5A95B0C9E1 /* KeyboardExtension.appex in Embed Foundation Extensions */,
+				6A17E3A67FA8F21D37FE6EE9 /* ClipWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A38B2D5B2287DDCE8CA0CBC /* KeyboardExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeyboardExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		646EDE3E215A709B5444CFF3 /* ClipWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClipWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA968FD309E42CE000BBC79 /* ClipVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA96A11309E5575000BBC79 /* ClipVault-Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ClipVault-Guide.md"; sourceTree = "<group>"; };
+		CEA5DD319333D693CF7EFFA3 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		234310ED72110E895180F686 /* ClipWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClipWidget;
+			sourceTree = "<group>";
+		};
+		5A11ED00C0DE5A11ED00C0DE /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		646EF0F3C1F006A2ADE68E18 /* ShareExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		9DA968FF309E42CE000BBC79 /* stash */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = stash;
+			sourceTree = "<group>";
+		};
+		C2C910A1DCF5722B4537C909 /* KeyboardExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KeyboardExtension;
+			sourceTree = "<group>";
+		};
+		D5B807729C9161D8C6C93C82 /* Config */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2D47B07668641DD367FA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				C1FD248A049A14CB44193E82 /* ClipKit in Frameworks */,
+			);
+		};
+		42FDF886AF07C4518FCA677E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				750024BC71362BAFC64E9F15 /* ClipKit in Frameworks */,
+			);
+		};
+		7A060220E4052A4F7A81B135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				4C0B8E4818663D315491FBF6 /* ClipKit in Frameworks */,
+			);
+		};
+		9DA968FA309E42CE000BBC79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				9C8CBCF1CE45556DC0D676A7 /* ClipKit in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA968F4309E42CE000BBC79 = {
+			isa = PBXGroup;
+			children = (
+				9DA96A12309E5575000BBC79 /* docs */,
+				5A11ED00C0DE5A11ED00C0DE /* Shared */,
+				9DA968FF309E42CE000BBC79 /* stash */,
+				646EF0F3C1F006A2ADE68E18 /* ShareExtension */,
+				C2C910A1DCF5722B4537C909 /* KeyboardExtension */,
+				234310ED72110E895180F686 /* ClipWidget */,
+				D5B807729C9161D8C6C93C82 /* Config */,
+				9DA968FE309E42CE000BBC79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA968FE309E42CE000BBC79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA968FD309E42CE000BBC79 /* ClipVault.app */,
+				CEA5DD319333D693CF7EFFA3 /* ShareExtension.appex */,
+				4A38B2D5B2287DDCE8CA0CBC /* KeyboardExtension.appex */,
+				646EDE3E215A709B5444CFF3 /* ClipWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA96A12309E5575000BBC79 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				9DA96A11309E5575000BBC79 /* ClipVault-Guide.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E7050869DCFA32234E5295 /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFB595A4B1F0906DCA41301 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				800E911B6AC7E1119F0F4A59 /* Sources */,
+				1F2D47B07668641DD367FA49 /* Frameworks */,
+				34D48BD44C8C7DDCD4B4F612 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				646EF0F3C1F006A2ADE68E18 /* ShareExtension */,
+			);
+			name = ShareExtension;
+			packageProductDependencies = (
+				95F91EFA189DA60320F57D9F /* ClipKit */,
+			);
+			productName = ShareExtension;
+			productReference = CEA5DD319333D693CF7EFFA3 /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9DA968FC309E42CE000BBC79 /* stash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA96908309E42D0000BBC79 /* Build configuration list for PBXNativeTarget "stash" */;
+			buildPhases = (
+				9DA968F9309E42CE000BBC79 /* Sources */,
+				9DA968FA309E42CE000BBC79 /* Frameworks */,
+				9DA968FB309E42CE000BBC79 /* Resources */,
+				269605D45C104F12CBCDC8FB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF20972D49DD78CAB8D7FEBC /* PBXTargetDependency */,
+				C0BDC1496A0E211BD04EC2BE /* PBXTargetDependency */,
+				DEC799910F305619F095203C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A11ED00C0DE5A11ED00C0DE /* Shared */,
+				9DA968FF309E42CE000BBC79 /* stash */,
+			);
+			name = stash;
+			packageProductDependencies = (
+				95F91EFA189DA60320F57D9F /* ClipKit */,
+			);
+			productName = stash;
+			productReference = 9DA968FD309E42CE000BBC79 /* ClipVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E76EE1E2E80410897A3B05E /* ClipWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8303DB7BE8EA34EA3D722B64 /* Build configuration list for PBXNativeTarget "ClipWidget" */;
+			buildPhases = (
+				0A042E9C7B90D7B069AF57C7 /* Sources */,
+				7A060220E4052A4F7A81B135 /* Frameworks */,
+				1938932ED2F17E2402B4380A /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				234310ED72110E895180F686 /* ClipWidget */,
+				5A11ED00C0DE5A11ED00C0DE /* Shared */,
+			);
+			name = ClipWidget;
+			packageProductDependencies = (
+				95F91EFA189DA60320F57D9F /* ClipKit */,
+			);
+			productName = ClipWidget;
+			productReference = 646EDE3E215A709B5444CFF3 /* ClipWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CDBFB7663E2A060FB17433B4 /* KeyboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98003B9599AB0A368B08237 /* Build configuration list for PBXNativeTarget "KeyboardExtension" */;
+			buildPhases = (
+				7EEA7D327971D72F189AD9F6 /* Sources */,
+				42FDF886AF07C4518FCA677E /* Frameworks */,
+				164AA00BB68B070870BB6FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				C2C910A1DCF5722B4537C909 /* KeyboardExtension */,
+			);
+			name = KeyboardExtension;
+			packageProductDependencies = (
+				95F91EFA189DA60320F57D9F /* ClipKit */,
+			);
+			productName = KeyboardExtension;
+			productReference = 4A38B2D5B2287DDCE8CA0CBC /* KeyboardExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA968F5309E42CE000BBC79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					84E7050869DCFA32234E5295 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					9DA968FC309E42CE000BBC79 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					9E76EE1E2E80410897A3B05E = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					CDBFB7663E2A060FB17433B4 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 9DA968F8309E42CE000BBC79 /* Build configuration list for PBXProject "stash" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA968F4309E42CE000BBC79;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A46A1BCE0B67C45BEC8F435B /* XCLocalSwiftPackageReference "ClipKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9DA968FE309E42CE000BBC79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA968FC309E42CE000BBC79 /* stash */,
+				84E7050869DCFA32234E5295 /* ShareExtension */,
+				CDBFB7663E2A060FB17433B4 /* KeyboardExtension */,
+				9E76EE1E2E80410897A3B05E /* ClipWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		164AA00BB68B070870BB6FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				9DA96A13309E5575000BBC79 /* ClipVault-Guide.md in Resources */,
+			);
+		};
+		1938932ED2F17E2402B4380A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				9DA96A14309E5575000BBC79 /* ClipVault-Guide.md in Resources */,
+			);
+		};
+		34D48BD44C8C7DDCD4B4F612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				9DA96A16309E5575000BBC79 /* ClipVault-Guide.md in Resources */,
+			);
+		};
+		9DA968FB309E42CE000BBC79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				9DA96A15309E5575000BBC79 /* ClipVault-Guide.md in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A042E9C7B90D7B069AF57C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		7EEA7D327971D72F189AD9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		800E911B6AC7E1119F0F4A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		9DA968F9309E42CE000BBC79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF20972D49DD78CAB8D7FEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E7050869DCFA32234E5295 /* ShareExtension */;
+			targetProxy = E9802C04EC72AB10A769E826 /* PBXContainerItemProxy */;
+		};
+		C0BDC1496A0E211BD04EC2BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBFB7663E2A060FB17433B4 /* KeyboardExtension */;
+			targetProxy = ABB3EBB688924DCFF07C30AA /* PBXContainerItemProxy */;
+		};
+		DEC799910F305619F095203C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E76EE1E2E80410897A3B05E /* ClipWidget */;
+			targetProxy = 6254DFA41E1FCF3C5BB98BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45724C6426AF5A7EE6929839 /* Release configuration for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/ShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/ShareExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Save to ClipVault";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		567319BA3DCC42EA7D6B9CF2 /* Debug configuration for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/ShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/ShareExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Save to ClipVault";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6C115966E3D3CE9087FB7072 /* Debug configuration for PBXNativeTarget "KeyboardExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/KeyboardExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/KeyboardExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ClipVault;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault.KeyboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		90D3AC0F94D985BD40117800 /* Release configuration for PBXNativeTarget "KeyboardExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/KeyboardExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/KeyboardExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ClipVault;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault.KeyboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9DA96906309E42D0000BBC79 /* Debug configuration for PBXProject "stash" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DA96907309E42D0000BBC79 /* Release configuration for PBXProject "stash" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA96909309E42D0000BBC79 /* Debug configuration for PBXNativeTarget "stash" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/stash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipVault;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock ClipVault to view your saved clips.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault;
+				PRODUCT_NAME = ClipVault;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9DA9690A309E42D0000BBC79 /* Release configuration for PBXNativeTarget "stash" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/stash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipVault;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock ClipVault to view your saved clips.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault;
+				PRODUCT_NAME = ClipVault;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A321CB638948474DE99654B3 /* Release configuration for PBXNativeTarget "ClipWidget" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/ClipWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/ClipWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ClipVault;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault.ClipWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D97403042127A51B3AE09BBC /* Debug configuration for PBXNativeTarget "ClipWidget" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/ClipWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJL32KA22U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/ClipWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ClipVault;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shar.clipvault.ClipWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8303DB7BE8EA34EA3D722B64 /* Build configuration list for PBXNativeTarget "ClipWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97403042127A51B3AE09BBC /* Debug configuration for PBXNativeTarget "ClipWidget" */,
+				A321CB638948474DE99654B3 /* Release configuration for PBXNativeTarget "ClipWidget" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		9DA968F8309E42CE000BBC79 /* Build configuration list for PBXProject "stash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA96906309E42D0000BBC79 /* Debug configuration for PBXProject "stash" */,
+				9DA96907309E42D0000BBC79 /* Release configuration for PBXProject "stash" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		9DA96908309E42D0000BBC79 /* Build configuration list for PBXNativeTarget "stash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA96909309E42D0000BBC79 /* Debug configuration for PBXNativeTarget "stash" */,
+				9DA9690A309E42D0000BBC79 /* Release configuration for PBXNativeTarget "stash" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A98003B9599AB0A368B08237 /* Build configuration list for PBXNativeTarget "KeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C115966E3D3CE9087FB7072 /* Debug configuration for PBXNativeTarget "KeyboardExtension" */,
+				90D3AC0F94D985BD40117800 /* Release configuration for PBXNativeTarget "KeyboardExtension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		EEFB595A4B1F0906DCA41301 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567319BA3DCC42EA7D6B9CF2 /* Debug configuration for PBXNativeTarget "ShareExtension" */,
+				45724C6426AF5A7EE6929839 /* Release configuration for PBXNativeTarget "ShareExtension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A46A1BCE0B67C45BEC8F435B /* XCLocalSwiftPackageReference "ClipKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ClipKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95F91EFA189DA60320F57D9F /* ClipKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ClipKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9DA968F5309E42CE000BBC79 /* Project object */;
+	validationLevel = 1;
+}

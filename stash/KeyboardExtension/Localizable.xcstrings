@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ClipVault could not open its shared storage. Open the ClipVault app once, then try again." : {
+
+    },
+    "ClipVault items are hidden while you type in a secure field." : {
+
+    },
+    "Delete" : {
+
+    },
+    "Full Access is off" : {
+
+    },
+    "Inserts into the text field" : {
+
+    },
+    "iOS only lets a keyboard read ClipVault's saved history when Full Access is on. Without it this keyboard can still type space, delete and return, but it cannot show your items." : {
+
+    },
+    "Next keyboard" : {
+
+    },
+    "Nothing saved yet" : {
+
+    },
+    "Return" : {
+
+    },
+    "Save items from the ClipVault app or the Share sheet and they appear here." : {
+
+    },
+    "Save my copies automatically" : {
+
+    },
+    "Secure field" : {
+
+    },
+    "space" : {
+
+    },
+    "Storage unavailable" : {
+
+    },
+    "To turn it on: Settings → General → Keyboard → Keyboards → ClipVault → Allow Full Access. ClipVault never sends anything off your device." : {
+
+    },
+    "When on, ClipVault saves what you copy while this keyboard is open" : {
+
+    }
+  },
+  "version" : "1.0"
+}

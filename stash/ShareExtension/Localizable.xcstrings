@@ -1,0 +1,27 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ClipVault could not open its storage." : {
+
+    },
+    "Close" : {
+
+    },
+    "Saved and copied" : {
+
+    },
+    "Saved to ClipVault" : {
+
+    },
+    "Saving to ClipVault…" : {
+
+    },
+    "That content could not be saved." : {
+
+    },
+    "There was nothing ClipVault can save here." : {
+
+    }
+  },
+  "version" : "1.0"
+}
